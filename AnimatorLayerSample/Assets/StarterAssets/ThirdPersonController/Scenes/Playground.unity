@@ -2246,6 +2246,7 @@ GameObject:
   - component: {fileID: 5885216829670671795}
   - component: {fileID: 135756641613574975}
   - component: {fileID: 4416926083347132239}
+  - component: {fileID: 6982812147933622148}
   m_Layer: 8
   m_Name: PlayerArmature
   m_TagString: Player
@@ -3125,6 +3126,26 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &6982812147933622148
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4416926083347132227}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1950bac513f461b4dab74aadf0aa097d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _baseLayerInputReference: {fileID: -9016721333588470034, guid: 4419d82f33d36e848b3ed5af4c8da37e,
+    type: 3}
+  _firstLayerInputReference: {fileID: -4611537669975593358, guid: 4419d82f33d36e848b3ed5af4c8da37e,
+    type: 3}
+  _secondLayerInputReference: {fileID: -3603526024760344317, guid: 4419d82f33d36e848b3ed5af4c8da37e,
+    type: 3}
+  _animator: {fileID: 6982812147933622147}
+  _lerpSpeed: 1
 --- !u!4 &6983258930626336602
 Transform:
   m_ObjectHideFlags: 0
